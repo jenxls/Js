@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amamae</title>
+</head>
+<body>
+    <script>
+        // calculo da média do bimestre
+        window.alert('Cálcularemos a média do seus 4 Bimestres!!')
+        var b1 = Number.parseFloat(window.prompt('Digite a nota do seu 1st Bimestre: '))
+        var b2 = Number.parseFloat(window.prompt('Digite a nota do seu 2st Bimestre: '))
+        var b3 = Number.parseFloat(window.prompt('Digite a nota do seu 3st Bimestre: '))
+        var b4 = Number.parseFloat(window.prompt('Digite a nota do seu 4st Bimestre: '))
+        var d = (b1+b2+b3+b4)/4; // a soma dos bimestres divido por 4
+        window.alert(`A sua média é: ${d}`)
+        // a situção, se a média for maior que 6.9 aparece a mensagem que passou se não aparece a outra mensagem
+        if (d > 6.9){
+            window.alert('Parabéns!! Você passou!!')
+        }else{
+            window.alert('Se esforce mais no próximo ano.')
+        }
+
+
+
+
+    </script>
+</body>
+</html>
