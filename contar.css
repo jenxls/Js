@@ -1,0 +1,25 @@
+body{
+    background-color: #80e4cb;
+    font: normal 12pt  Arial;
+}
+header, footer{
+    text-align: center;
+}
+section{
+    background: #c5f17df6;
+    width: 500px;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+}
+p{
+    padding-top: 4px;
+    padding-left: 5px;
+}
+input#inicio, input#fim, input#passo{
+    width: 90px;
+}
+div#button{
+    text-align: center;
+    padding-bottom: 6px;
+}
