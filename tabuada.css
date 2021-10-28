@@ -1,0 +1,41 @@
+body{
+    background-color: #73178f;
+    color: white;
+    font: normal 12pt Arial;
+}
+h1{
+    box-shadow: 7px 7px 10px black;
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+header{
+    text-align: center;
+}
+section{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    margin: auto;
+    width: 500px;
+    transition: background 1s;
+    
+}
+section:hover, section:focus{
+    background: #9e22c3;
+}
+input{
+    background-color: black;
+    color: white;
+}
+input#numero{
+    width: 50px;
+}
+footer{
+    font-style: italic ;
+    font-size: 10pt;
+    text-align: center;
+}
