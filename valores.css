@@ -1,0 +1,52 @@
+body{
+    background-color: #5160a0;
+    font: normal 12pt Arial;
+    color: #e8eef6;
+}
+section{
+    width: 500px;
+    margin: auto;
+    background: #1e2945 ;
+    border-radius: 10px;
+    box-shadow: 10px 7px 10px rgba(0, 0, 0, 0.705);
+}
+input#txtnum{
+    width: 100px;
+}
+select#ntabela{
+    width: 200px;
+    margin-left: 10px;
+}
+div#butao{
+    text-align: center;
+    padding-bottom: 1px;
+}
+div#textotxtnum{
+    margin-left: 10px;
+    padding-top: 2px;
+}
+h1, footer{
+    text-align: center;
+}
+footer{
+    font-style: italic;
+}
+h1{
+    transition: background 1.5s;
+    transition: color 1s;
+    width: 200px;
+    margin: auto;
+    border-radius: 15px;
+}
+h1:hover, h1:focus{
+    background: #1e2945;
+    color: #5160a0;
+}
+input, select{
+    background: #e2e2e2;
+}
+div#resultado{
+    padding-left: 10px;
+    padding-bottom: 6px;
+    text-align: center;
+}
